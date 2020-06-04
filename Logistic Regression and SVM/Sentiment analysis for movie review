@@ -20,3 +20,4 @@ print("Probability of positive review:", lr.predict_proba(review2_features)[0,1]
 Probability of positive review: 0.8079007873616059
 Review: Total junk! I'll never watch a film by that director again, no matter how good the reviews.
 Probability of positive review: 0.5855117402793947
+The second probability would have been even lower, but the word "good" trips it up a bit, since that's considered a "positive" word.
