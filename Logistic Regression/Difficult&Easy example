@@ -12,3 +12,8 @@ show_digit(proba_inds[-1], lr)
 
 # Show the least confident (most ambiguous) digit
 show_digit(proba_inds[0], lr)
+
+
+
+
+As you can see, the least confident example looks like a weird 4, and the most confident example looks like a very typical 0.
